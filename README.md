@@ -19,5 +19,6 @@ By implementing an automated real-time pipeline system for monitoring the stink 
 The repository generates a series of priority maps for stink bug monitoring, which are published on ArcGIS Online for easy access and utilization.
 
 ## Author
-Yaxuan Zhang
-Maochuan Wang
+  * Yaxuan Zhang
+  
+  * Maochuan Wang
