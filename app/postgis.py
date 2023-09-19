@@ -9,15 +9,15 @@ app = Flask(__name__)
 # Define Routes
 @app.route("/")
 def home():
-    return "GIS 5572 - Final - Maochuan Wang"
+    return "Geo-simulation-System"
 
 @app.route("/City_Pred2022")
 def city_pred2022():
     connection = psycopg2.connect(
-        host='spatialdb.gisandbox.org',
-        database='wang8837',
-        user='wang8837',
-        password='student'
+        host='test',
+        database='test',
+        user='test',
+        password='test'
     )
     cursor = connection.cursor()
     cursor.execute("""
@@ -60,10 +60,10 @@ FROM data;
 @app.route("/City_Pred2023")
 def city_pred2023():
     connection = psycopg2.connect(
-        host='spatialdb.gisandbox.org',
-        database='wang8837',
-        user='wang8837',
-        password='student'
+        host='test',
+        database='test',
+        user='test',
+        password='test'
     )
     cursor = connection.cursor()
     cursor.execute("""
@@ -106,10 +106,10 @@ FROM data;
 @app.route("/City_Pred2024")
 def city_pred2024():
     connection = psycopg2.connect(
-        host='spatialdb.gisandbox.org',
-        database='wang8837',
-        user='wang8837',
-        password='student'
+        host='test',
+        database='test',
+        user='test',
+        password='test'
     )
     cursor = connection.cursor()
     cursor.execute("""
@@ -152,10 +152,10 @@ FROM data;
 @app.route("/City_Sim")
 def city_sim():
     connection = psycopg2.connect(
-        host='spatialdb.gisandbox.org',
-        database='wang8837',
-        user='wang8837',
-        password='student'
+        host='test',
+        database='test',
+        user='test',
+        password='test'
     )
     cursor = connection.cursor()
     cursor.execute("""
@@ -198,10 +198,10 @@ FROM data;
 @app.route("/final_stinkbug")
 def final_stinkbug():
     connection = psycopg2.connect(
-        host='spatialdb.gisandbox.org',
-        database='wang8837',
-        user='wang8837',
-        password='student'
+        host='test',
+        database='test',
+        user='test',
+        password='test'
     )
     cursor = connection.cursor()
     cursor.execute("""
